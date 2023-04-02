@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokedex List</title>
+
+</head>
+
+<body>
+    <nav>
+        <img id="logo" src="https://assets.pokemon.com/assets/cms2/img/misc/gus/buttons/logo-pokemon-79x45.png" alt="">
+    </nav>
+    <main>
+        <header>
+            <h3> POKEMON-API </h3>
+        </header>
+        <section>
+            <h4 id="name"></h4>
+            <img src="" id="selected-image">
+
+            <div id="ability-div" style="display: none">
+                <h4>Abilities</h4>
+                <p id="ability"></p>
+            </div>
+
+            <div id="moves-div" style="display: none">
+                <h4>Moves</h4>
+                <p id="moves"></p>
+            </div>
+
+            <div id="weight-div" style="display: none">
+                <h4>Weight</h4>
+                <p id="weight"></p>
+            </div>
+
+
+        </section>
+
+
+        <ul id="pokemon-list"></ul>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
